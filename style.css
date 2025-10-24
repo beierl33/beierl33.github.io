@@ -6,7 +6,7 @@
 @media only screen and (min-width: 0rem) {
     #contact-1150 {
         padding: var(--sectionPadding);
-        background-color: #f7f7f7;
+        background-color: #5c73b8;
         position: relative;
         z-index: 1;
     }
@@ -326,3 +326,4 @@ body {
     margin: 0;
     color: var(--bodyTextColor);
 }
+
