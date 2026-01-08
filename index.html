@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Bosch Brothers Air Conditioning</title>
+    <!-- put stylesheets here -->
+    <link rel="stylesheet" href="assets/css/global.css">
+	<link rel="stylesheet" href="assets/css/navbar.css">
+	<link rel="stylesheet" href="assets/css/hero.css">
+	<link rel="stylesheet" href="assets/css/chooseus.css">
+	<link rel="stylesheet" href="assets/css/logos.css">
+	<link rel="stylesheet" href="assets/css/footer.css">
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <!--Nav Logo-->
+    <a href="index.html" class="cs-logo cs-desktop" aria-label="back to home">
+        <div class="cs-logo-wrapper">
+            <!--Default Logo-->
+            <img class="cs-default" src="assets/images/boschlogo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+            <!--Dark Mode Logo-->
+            <img class="cs-dark" src="assets/images/boschlogo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </div>
+    </a>
+    <div class="cs-middle">
+        <!--Top Bar-->
+        <div class="cs-top-bar">
+            <div class="cs-top-social">
+                <a href="https://www.facebook.com/profile.php?id=61584397931517" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a>
+<!-- uncomment if we add more social media accounts in the future
+
+               <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twitter-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a>
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a>
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/youtube1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a> --!>
+            </div>
+            <ul class="cs-location">
+                <li class="cs-item cs-remove">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/red-pin1.svg" alt="icon" width="20" height="20" aria-hidden="true" decoding="async">
+                    207 Cross Street - Punta Gorda, FL 33950
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/red-clock1.svg" alt="icon" width="20" height="20" aria-hidden="true" decoding="async">
+                   Office Hours | M-F: 8:00am - 4:00pm
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom-bar">
+            <a href="" class="cs-logo cs-mobile" aria-label="back to home">
+                <div class="cs-logo-wrapper">
+                    <!--Default Logo-->
+                    <img class="cs-default" src="assets/images/boschlogo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+                    <!--Dark Mode Logo-->
+                    <img class="cs-dark" src="assets/images/boschlogo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+                </div>
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="index.html" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                        <li class="cs-li cs-dropdown" tabindex="0">
+                            <span class="cs-li-link">
+                                Services
+                                <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-dwon2.svg" alt="dropdown icon" width="24" height="24" decoding="async" aria-hidden="true">
+                            </span>
+                            <ul class="cs-drop-ul">
+                                <li class="cs-drop-li">
+                                    <a href="acrepair.html" class="cs-li-link cs-drop-link">AC Repair</a>
+                                </li>
+                               <!-- <li class="cs-drop-li">
+                                    <a href="changeout.html" class="cs-li-link cs-drop-link">AC Replacement</a>
+                                </li> --!>
+                                <li class="cs-drop-li">
+                                    <a href="newac.html" class="cs-li-link cs-drop-link">AC Installation</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="ductcleaning.html" class="cs-li-link cs-drop-link">Duct Cleaning</a>
+                                </li>
+                            </ul>
+                        </li>
+						 <li class="cs-li">
+                            <a href="maint.html" class="cs-li-link">
+                                Maintenance Agreements
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="areasweserve.html" class="cs-li-link">
+                                Areas We Serve
+                            </a>
+                        </li>
+						<li class="cs-li">
+                            <a href="contact.html" class="cs-li-link">
+                                Gallery
+                            </a>
+                        </li>
+						<li class="cs-li">
+                            <a href="contact.html" class="cs-li-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a class="cs-nav-button cs-tablet" href="tel:+12394828110">
+                <picture class="cs-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/red-phone1.svg" alt="icon" width="24" height="24">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-header">Call Us 24/7</span>
+                    <span class="cs-link-content">(239) 482-8110</span>
+                </div>
+            </a>
+            <!-- <a href="contact.html" class="cs-button-border">
+                Get In Touch
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/up-right-arrow.svg" alt="icon" width="20" height="20">
+            </a> --!>
+         </div>
+		 </div>
+
+    <div class="cs-contact-wrapper">
+        <a class="cs-desktop-button" href="tel:+12394828110">
+            <picture class="cs-wrapper">
+                <img class="cs-button-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/red-phone1.svg" alt="icon" width="24" height="24">
+            </picture>
+            <div class="cs-info">
+                <span class="cs-header">Call Us 24/7</span>
+                <span class="cs-link-content">(239) 482-8110</span>
+            </div>
+        </a>
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+<section id="hero-1621">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">
+                <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                    <path d="M0.621948 7.49889L6.40262 15L10.343 15L4.56231 7.49889L10.343 -4.2492e-07L6.40262 -2.52681e-07L0.621948 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M7.62195 7.49889L13.4026 15L17.343 15L11.5623 7.49889L17.343 -4.2492e-07L13.4026 -2.52681e-07L7.62195 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M14.7789 7.49889L20.5596 15L24.5 15L18.7193 7.49889L24.5 -4.2492e-07L20.5596 -2.52681e-07L14.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M22.7789 7.49889L28.5596 15L32.5 15L26.7193 7.49889L32.5 -4.2492e-07L28.5596 -2.52681e-07L22.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M30.7789 7.49889L36.5596 15L40.5 15L34.7193 7.49889L40.5 -4.2492e-07L36.5596 -2.52681e-07L30.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M38.7789 7.49889L44.5596 15L48.5 15L42.7193 7.49889L48.5 -4.2492e-07L44.5596 -2.52681e-07L38.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    </g>
+                </svg>
+                Bosch Brothers Air Conditioning
+                <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                    <path d="M48.3781 7.49889L42.5974 15L38.657 15L44.4377 7.49889L38.657 -4.2492e-07L42.5974 -2.52681e-07L48.3781 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M41.3781 7.49889L35.5974 15L31.657 15L37.4377 7.49889L31.657 -4.2492e-07L35.5974 -2.52681e-07L41.3781 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M34.2211 7.49889L28.4404 15L24.5 15L30.2807 7.49889L24.5 -4.2492e-07L28.4404 -2.52681e-07L34.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M26.2211 7.49889L20.4404 15L16.5 15L22.2807 7.49889L16.5 -4.2492e-07L20.4404 -2.52681e-07L26.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M18.2211 7.49889L12.4404 15L8.50004 15L14.2807 7.49889L8.50004 -4.2492e-07L12.4404 -2.52681e-07L18.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M10.2211 7.49889L4.4404 15L0.500041 15L6.28071 7.49889L0.500042 -4.2492e-07L4.4404 -2.52681e-07L10.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    </g>
+                </svg>
+            </span>
+            <h1 class="cs-title">
+                Family Owned & Operated Heating & Cooling Experts.</h1>
+            <a href="" class="cs-button-solid">Contact Us</a>
+            <!--Bottom Corners-->
+            <div class="cs-corners" aria-hidden="true"></div>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="assets/images/snowflake.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Cooling & Heating Experts</h3>
+                <p class="cs-item-text">
+                    We are experts in Heating & Cooling.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="assets/images/ac.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Professionally Trained Technicians</h3>
+                <p class="cs-item-text">
+                    Our technicians are professionally trained.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="assets/images/family.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Family Owned & Operated</h3>
+                <p class="cs-item-text">
+                    As an indipendent business we can keep costs down for you.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="assets/images/check.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Bosch Brothers Garuntee</h3>
+                <p class="cs-item-text">
+                    Our salaried, non-comission technicians ensures every diagnosis we give remains fair and honest.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2-m.jpeg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg" alt="meeting" width="1920" height="1200" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-1730">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Services</span>
+            <h2 class="cs-title">Bosch Brothers to the rescue!</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+			  <a href="acrepair.html">
+			  <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-house.svg" alt="icon" width="32" height="32">
+                </picture>
+				</a>
+			   </a>
+                <div class="cs-flex">
+				   <h3 class="cs-h3">AC Repair</h3>
+                    <p class="cs-item-text">
+                        For when your AC needs fixing.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+				<a href="newac.html">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-layer.svg" alt="icon" width="72" height="72">
+                </picture>
+				</a>
+				</a>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">AC Installation</h3>
+                    <p class="cs-item-text">
+                        For when you need a new AC system.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+				<a href="ductcleaning.html">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-hour.svg" alt="icon" width="72" height="72">
+                </picture>
+				</a>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Duct Cleaning</h3>
+                    <p class="cs-item-text">
+                        For when you need your ductwork cleaned.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+				<a href="maint.html">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-flower.svg" alt="icon" width="72" height="72">
+                </picture>
+				</a>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Maintenance Agreements</h3>
+                    <p class="cs-item-text">
+                        For keeping your system running all year.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Logos                      -->
+<!-- ============================================ -->
+
+<section id="logos-857">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-titlealt">We're liscenced and insured within the state of Florida!</span>
+            <span class="cs-bodytopper">#CAC10815961</span>
+			<br>
+			<br>
+		<h2 class="cs-titlealt">We're experienced!</h2>
+		<span class="cs-bodytopper">We have experince working with all major AC brands.</span>
+		</div>
+        <div class="cs-logo-group">
+            <!--Ideally you want to use svg's for the file path image, which is why these aren't wrapped in picture elements for different screen sizes-->
+            <img class="cs-logo" src="assets/images/lennox.svg" alt="logo" width="150" height="65" loading="lazy" decoding="async">
+            <img class="cs-logo" src="assets/images/daikin.svg" alt="logo" width="150" height="55" loading="lazy" decoding="async">
+            <img class="cs-logo" src="assets/images/trane.svg" alt="logo" width="150" height="53" loading="lazy" decoding="async">
+            <img class="cs-logo" src="assets/images/goodman.svg" alt="logo" width="150" height="61" loading="lazy" decoding="async">
+            <img class="cs-logo" src="assets/images/carrier.svg" alt="logo" width="150" height="65" loading="lazy" decoding="async">
+            <img class="cs-logo" src="assets/images/rheem.svg" alt="logo" width="150" height="55" loading="lazy" decoding="async">
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<!--NOTE: Make sure the section above this footer has the same background color as the footer for a seamless trasition between them-->
+
+<footer id="cs-footer-1763">
+    <!--Contact Info-->
+    <!-- uncomment out of we want the contact info in footer --!>
+	
+	<div class="cs-card-group">
+         <!--  <div class="cs-card">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-footer-location-pin.svg" alt="location" loading="lazy" decoding="async" height="32" width="32">
+            </picture>
+            <div class="cs-flex">
+                <h3 class="cs-h3">Location</h3>
+                <span class="cs-card-info">207 Cross Street - Punta Gorda, FL 33950</span>
+            </div>
+        </div>
+        <div class="cs-card">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-footer-clock.svg" alt="clock" loading="lazy" decoding="async" height="32" width="32">
+            </picture>
+            <div class="cs-flex">
+                <h3 class="cs-h3">Working Hours</h3>
+                <span class="cs-card-info">Office | Monday - Friday: 8:00am - 4:00pm </span>
+                <span class="cs-card-info">Emergency Services | 24/7</span>
+            </div>
+        </div>
+        <div class="cs-card">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-footer-call.svg" alt="phone" loading="lazy" decoding="async" height="32" width="32">
+            </picture>
+            <div class="cs-flex">
+                <h3 class="cs-h3">Contact</h3>
+                <a href="" class="cs-card-info">P: (239) 482-8110 </a>
+                <a href="" class="cs-card-info">E: boschbrothers@gmail.com</a>
+            </div> --!>
+        <!-- </div> --!>
+        <img class="cs-graphic cs-light" src="assets/images/footerbg.svg" alt="graphic" height="151" width="1920" loading="lazy" decoding="async">
+        <img class="cs-graphic cs-dark" src="assets/images/footerbg.svg" alt="graphic" height="151" width="1920" loading="lazy" decoding="async">
+    </div>
+
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="assets/images/boschlogoalt.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                Bosch Brothers has been proudly serving the Southwest Florida area for over 30 years. If you need help with your AC or have questions regarding our maintenance agreements feel free to call, email, or submit our form on our contact page.
+            </p>
+        </div>
+        <!-- Links -->
+        <div class="cs-ul-wrapper">
+            <span class="cs-header">Our Services</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a class="cs-link" href="acrepair.html">AC Repair</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="changeout.html">AC Replacement</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="newac.html">AC Installation</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="ductcleaning.html">Duct Cleaning</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-ul-wrapper">
+            <span class="cs-header">Useful Links</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a class="cs-link" href="maint.html">Maintenance Agreements</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="areasweserve.html">Areas We Serve</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-contact">
+            <div class="cs-contact-info">
+                <span class="cs-topper">Call Us 24/7</span>
+                <a href="" class="cs-contact-link">(239) 482-8110</a>
+            </div>
+            <div class="cs-contact-info">
+                <span class="cs-topper">Main Office Location</span>
+                <a href="" class="cs-contact-link">207 Cross Street - Punta Gorda, FL 33950</a>
+            </div>
+        </div>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-credit">
+            © Copyright 2026 - <a href="" class="cs-credit-link" target="_blank">Bosch Brothers</a>
+        </span>
+        <div class="cs-bottom-links">
+            <a href="" class="cs-bottom-link">Terms & Conditions</a>
+            <a href="" class="cs-bottom-link">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+
+<!-- ============================================ -->
+<!--                 scripts                      -->
+<!-- ============================================ -->
+<script src="assets/js/navbar.js"></script>	
